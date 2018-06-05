@@ -1,0 +1,21 @@
+#cropcode cropname
+0 NOCROP
+204 corn_grain-irrigated
+210 wheat_spring-high
+210 wheat_spring-intermediate
+210 wheat - spring
+218 wheat_winter-high
+218 wheat - winter
+218 wheat - winter_LelandVBA
+218 wheat_winter-irrigated
+218 wheat_winter-intermediate
+218 wheat_winter-low
+218 wheat_winter
+299 garbanzo
+701 alfalfa (Medicago sativa)
+701 Alfalfa OFoot Generic
+1401 apple
+1825 pea_spring-high
+1827 potato-irrigated
+1832 sugarbeet (Beta vulgaris)
+2002 winegrape
