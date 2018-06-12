@@ -1,0 +1,3 @@
+irrigation: 1
+ DEFAULT_CENTER_PIVOT 
+

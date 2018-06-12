@@ -1,0 +1,19 @@
+[rotation]
+details_URL=
+description=Winter wheat
+years=1
+sowing:count=1
+[version]
+major=4
+release=17
+minor=4
+[sowing:1]
+ID=CT_WW
+event_synchronization=actual_date
+event_date=280 (0000/10/7 (actual date))
+enabled=true
+checked=true
+description=same with winter wheat
+crop=../../Crop/Name/Barley.crp
+management=../../Management/Name/CT_Barley.mgt
+date=280 (0000/10/7 (actual date))

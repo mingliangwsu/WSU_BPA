@@ -1,0 +1,87 @@
+[crop]	peas
+canopy_growth	canopy_cover_2017
+harvested_part	grain
+C_species	C3
+life_cycle	annual
+stem_type	herbaceous
+[growth]	
+WUE_changes	FALSE
+TUE_equation	TUE_curve-
+TUE_scaling_coef	0.5
+TUE_scaling_coef_veg	0.5
+TUE_at_1pKa_VPD	4.5
+TUE_at_1pKa_VPD_veg	4.5
+RUE_global	1.5
+min_tolerable_temp	7
+max_tolerable_temp	40
+low_threshold_limit_temp	20
+high_threshold_limit_temp	28
+LWP_reduces_canopy_expansion	-1000
+LWP_stops_canopy_expansion	-1400
+[transpiration]	
+ET_crop_coef	1.15
+max_water_uptake	12
+stomatal_closure_leaf_water_pot	-1300
+wilt_leaf_water_pot	-1600
+kc	0.5
+[canopy_cover]	
+initial	0.05
+maximum	0.9
+green_season_end	0
+total_season_end	0.7
+thermal_time_season_end	1500
+shape_accrescent	9
+shape_senescent	9
+rel_TT_at_half_CC_max	0.5
+[phenology]	
+maturity_significant	TRUE
+emergence	25
+peak_LAI	960
+max_root_depth	960
+flowering	960
+filling	1000
+rapid_fruit_growth (tree fruits only)	
+senescence (begin)	1050
+maturity	1500
+full_senescence	1500
+thermal_response	linear
+base_temp	4
+cutoff_temp	25
+optimal_temp	0
+maximum_temp	0
+[dormancy]	
+chill requirement	
+deg_day_bud break shill req sat	
+deg day bud break chill req not sat	
+[root]	
+initial_depth	0.15
+root_sensitivity_water_stress	0.5
+max_root_depth	1.2
+surface_root_density	3
+root_density_distribution_curvature	0.00001
+root_length_at_emergence cm	10
+root_shoot_emergence_ratio	2
+root_shoot_full_ratio	0.1
+[morphology]	
+max_canopy_height	0.5
+[inactive_period]	
+consider_inactive_days	
+inducement_temperature	
+start_valid_date	
+end_valid_date	
+[harvest_index]	
+unstressed	0.48
+translocation_max	0.2
+adjust_HI	TRUE
+heat_extreme	FALSE
+[fruit]	
+fract_tot_solids	
+max_fruit_load	
+initial_growth_fraction_to_fruit	
+rapid_growth_fraction_to_fruit	
+[CO2]	
+TUE_reference_conc	360
+RUE_reference_conc	360
+alpha	0.0022
+theta	0.98
+growth_ratio_asymtotic	1.45

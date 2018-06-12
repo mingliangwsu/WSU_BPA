@@ -1,0 +1,87 @@
+[crop]	CHERRY
+canopy_growth	canopy_cover_2017
+harvested_part	fruit
+C_species	C3
+life_cycle	perennial
+stem_type	woody
+[growth]	
+WUE_changes	FALSE
+TUE_equation	TUE_curve
+TUE_scaling_coef	0.5
+TUE_scaling_coef_veg	0.5
+TUE_at_1pKa_VPD	5
+TUE_at_1pKa_VPD_veg	5
+RUE_global	1.6
+min_tolerable_temp	7
+max_tolerable_temp	40
+low_threshold_limit_temp	20
+high_threshold_limit_temp	28
+LWP_reduces_canopy_expansion	-1000
+LWP_stops_canopy_expansion	-1400
+[transpiration]	
+ET_crop_coef	1.2
+max_water_uptake	12
+stomatal_closure_leaf_water_pot	-1300
+wilt_leaf_water_pot	-1600
+kc	0.5
+[canopy_cover]	
+initial	0.05
+maximum	0.5
+green_season_end	0.5
+total_season_end	0.5
+thermal_time_season_end	
+shape_accrescent	9
+shape_senescent	9
+rel_TT_at_half_CC_max	0.5
+[phenology]	
+maturity_significant	TRUE
+emergence	120
+peak_LAI	50
+max_root_depth	450
+flowering	470
+filling	1250
+rapid_fruit_growth (tree fruits only)	
+senescence (begin)	1400
+maturity	
+full_senescence	
+thermal_response	linear
+base_temp	5
+cutoff_temp	25
+optimal_temp	0
+maximum_temp	0
+[dormancy]	
+chill requirement	800
+deg_day_bud break shill req sat	120
+deg day bud break chill req not sat	140
+[root]	
+initial_depth	0.15
+root_sensitivity_water_stress	0.5
+max_root_depth	
+surface_root_density	3
+root_density_distribution_curvature	0.00001
+root_length_at_emergence cm	10
+root_shoot_emergence_ratio	2
+root_shoot_full_ratio	0.1
+[morphology]	
+max_canopy_height	3
+[inactive_period]	
+consider_inactive_days	7
+inducement_temperature	5
+start_valid_date	330
+end_valid_date	90
+[harvest_index]	
+unstressed	
+translocation_max	0
+adjust_HI	FALSE
+heat_extreme	FALSE
+[fruit]	
+fract_tot_solids	0.25
+max_fruit_load	22000
+initial_growth_fraction_to_fruit	
+rapid_growth_fraction_to_fruit	
+[CO2]	
+TUE_reference_conc	360
+RUE_reference_conc	360
+alpha	
+theta	
+growth_ratio_asymtotic	

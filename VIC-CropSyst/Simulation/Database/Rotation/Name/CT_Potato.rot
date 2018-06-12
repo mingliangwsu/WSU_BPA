@@ -11,10 +11,10 @@ minor=4
 [sowing:1]
 ID=CT_P-WW-C-1
 event_synchronization=actual_date
-event_date=105 
+event_date=120 
 enabled=true
 checked=true
 description=Potato- Sowing date was come from rotation file in CFF folder
 crop=../../Crop/Name/potato-irrigated.crp
 management=../../Management/Name/CT_potato-irrigated.mgt
-date=105
+date=120

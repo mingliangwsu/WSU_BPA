@@ -1,0 +1,20 @@
+[rotation]
+details_URL=
+description=Pea Green
+years=1
+sowing:count=1
+[version]
+major=4
+release=17
+minor=4
+[sowing:1]
+ID=CT_C
+res_set_ID=0
+event_synchronization=relative_date
+event_date=0060
+enabled=true
+checked=true
+description=Pea
+crop=../../Crop/Name/Pea_green_OFoot_Generic.crp
+management=../../Management/Name/CT_pea_spring-high.mgt
+date=0060

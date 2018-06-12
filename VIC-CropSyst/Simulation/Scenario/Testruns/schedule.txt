@@ -1,2035 +1,2023 @@
 [crop_event_1]
-date=1979106 (1979-04-16)
+date=1979286 (1979-10-13)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_2]
-date=1979176 (1979-06-25)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_3]
-date=1979176 (1979-06-25)
+date=1980145 (1980-05-24)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_3]
+date=1980160 (1980-06-08)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_4]
-date=1979176 (1979-06-25)
+date=1980164 (1980-06-12)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_5]
-date=1979177 (1979-06-26)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_6]
-date=1979230 (1979-08-18)
+date=1980172 (1980-06-20)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_6]
+date=1980200 (1980-07-18)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_7]
-date=1979257 (1979-09-14)
+date=1980210 (1980-07-28)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=13214.6
-loss=3303.65
-root_biomass_before=1651.83
+primary_yield=7725.98
+residue=8027.24
+standing_dead=1416.57
+root_biomass_before=1716.98
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_8]
-date=1980105 (1980-04-14)
+date=1980288 (1980-10-14)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_9]
-date=1980182 (1980-06-30)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_10]
-date=1980182 (1980-06-30)
+date=1981138 (1981-05-18)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_10]
+date=1981150 (1981-05-30)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_11]
-date=1980182 (1980-06-30)
+date=1981154 (1981-06-03)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_12]
-date=1980183 (1980-07-01)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_13]
-date=1980245 (1980-09-01)
+date=1981163 (1981-06-12)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_13]
+date=1981193 (1981-07-12)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_14]
-date=1980258 (1980-09-14)
+date=1981203 (1981-07-22)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=12545.9
-loss=3136.48
-root_biomass_before=1568.24
+primary_yield=8075.07
+residue=8383.47
+standing_dead=1479.44
+root_biomass_before=1793.8
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_15]
-date=1981106 (1981-04-16)
+date=1981291 (1981-10-18)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_16]
-date=1981181 (1981-06-30)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_17]
-date=1981181 (1981-06-30)
+date=1982145 (1982-05-25)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_17]
+date=1982159 (1982-06-08)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_18]
-date=1981181 (1981-06-30)
+date=1982163 (1982-06-12)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_19]
-date=1981182 (1981-07-01)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_20]
-date=1981238 (1981-08-26)
+date=1982169 (1982-06-18)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_20]
+date=1982194 (1982-07-13)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_21]
-date=1981257 (1981-09-14)
+date=1982204 (1982-07-23)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=12404.9
-loss=3101.24
-root_biomass_before=1550.62
+primary_yield=7659.44
+residue=7984.49
+standing_dead=1409.03
+root_biomass_before=1705.3
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_22]
-date=1982112 (1982-04-22)
+date=1982290 (1982-10-17)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_23]
-date=1982177 (1982-06-26)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_24]
-date=1982177 (1982-06-26)
+date=1983140 (1983-05-20)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_24]
+date=1983149 (1983-05-29)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_25]
-date=1982177 (1982-06-26)
+date=1983152 (1983-06-01)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_26]
-date=1982178 (1982-06-27)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_27]
-date=1982236 (1982-08-24)
+date=1983160 (1983-06-09)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_27]
+date=1983191 (1983-07-10)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_28]
-date=1982257 (1982-09-14)
+date=1983201 (1983-07-20)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=11393.3
-loss=2848.33
-root_biomass_before=1424.16
+primary_yield=7621.33
+residue=7909.1
+standing_dead=1395.72
+root_biomass_before=1692.61
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_29]
-date=1983107 (1983-04-17)
+date=1983290 (1983-10-17)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_30]
-date=1983177 (1983-06-26)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_31]
-date=1983177 (1983-06-26)
+date=1984142 (1984-05-21)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_31]
+date=1984156 (1984-06-04)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_32]
-date=1983177 (1983-06-26)
+date=1984163 (1984-06-11)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_33]
-date=1983178 (1983-06-27)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_34]
-date=1983238 (1983-08-26)
+date=1984171 (1984-06-19)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_34]
+date=1984197 (1984-07-15)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_35]
-date=1983257 (1983-09-14)
+date=1984207 (1984-07-25)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=12378.3
-loss=3094.58
-root_biomass_before=1547.29
+primary_yield=7986.4
+residue=8304.03
+standing_dead=1465.42
+root_biomass_before=1775.58
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_36]
-date=1984105 (1984-04-14)
+date=1984288 (1984-10-14)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_37]
-date=1984190 (1984-07-08)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_38]
-date=1984190 (1984-07-08)
+date=1985157 (1985-06-06)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_38]
+date=1985167 (1985-06-16)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_39]
-date=1984190 (1984-07-08)
+date=1985170 (1985-06-19)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_40]
-date=1984191 (1984-07-09)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_41]
-date=1984246 (1984-09-02)
+date=1985178 (1985-06-27)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_41]
+date=1985200 (1985-07-19)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_42]
-date=1984258 (1984-09-14)
+date=1985210 (1985-07-29)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=10684.2
-loss=2671.05
-root_biomass_before=1335.53
+primary_yield=8380.24
+residue=8716.93
+standing_dead=1538.28
+root_biomass_before=1863.55
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_43]
-date=1985105 (1985-04-15)
+date=1985292 (1985-10-19)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_44]
-date=1985174 (1985-06-23)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_45]
-date=1985174 (1985-06-23)
+date=1986150 (1986-05-30)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_45]
+date=1986158 (1986-06-07)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_46]
-date=1985174 (1985-06-23)
+date=1986162 (1986-06-11)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_47]
-date=1985175 (1985-06-24)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_48]
-date=1985227 (1985-08-15)
+date=1986168 (1986-06-17)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_48]
+date=1986195 (1986-07-14)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_49]
-date=1985257 (1985-09-14)
+date=1986205 (1986-07-24)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=13272
-loss=3318.01
-root_biomass_before=1659
+primary_yield=7631.68
+residue=7929.3
+standing_dead=1399.29
+root_biomass_before=1696.03
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_50]
-date=1986105 (1986-04-15)
+date=1986289 (1986-10-16)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_51]
-date=1986173 (1986-06-22)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_52]
-date=1986173 (1986-06-22)
+date=1987134 (1987-05-14)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_52]
+date=1987148 (1987-05-28)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_53]
-date=1986173 (1986-06-22)
+date=1987154 (1987-06-03)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_54]
-date=1986174 (1986-06-23)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_55]
-date=1986231 (1986-08-19)
+date=1987161 (1987-06-10)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_55]
+date=1987185 (1987-07-04)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_56]
-date=1986257 (1986-09-14)
+date=1987195 (1987-07-14)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=13046.8
-loss=3261.7
-root_biomass_before=1630.85
+primary_yield=7009.12
+residue=7283.75
+standing_dead=1285.37
+root_biomass_before=1557.82
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_57]
-date=1987105 (1987-04-15)
+date=1987288 (1987-10-15)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_58]
-date=1987167 (1987-06-16)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_59]
-date=1987167 (1987-06-16)
+date=1988138 (1988-05-17)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_59]
+date=1988152 (1988-05-31)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_60]
-date=1987167 (1987-06-16)
+date=1988158 (1988-06-06)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_61]
-date=1987169 (1987-06-18)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_62]
-date=1987227 (1987-08-15)
+date=1988168 (1988-06-16)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_62]
+date=1988193 (1988-07-11)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_63]
-date=1987257 (1987-09-14)
+date=1988203 (1988-07-21)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=14075
-loss=3518.75
-root_biomass_before=1759.38
+primary_yield=7724.32
+residue=8024.61
+standing_dead=1416.11
+root_biomass_before=1716.5
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_64]
-date=1988105 (1988-04-14)
+date=1988286 (1988-10-12)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_65]
-date=1988179 (1988-06-27)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_66]
-date=1988179 (1988-06-27)
+date=1989130 (1989-05-10)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_66]
+date=1989148 (1989-05-28)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_67]
-date=1988179 (1988-06-27)
+date=1989153 (1989-06-02)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_68]
-date=1988180 (1988-06-28)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_69]
-date=1988237 (1988-08-24)
+date=1989159 (1989-06-08)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_69]
+date=1989188 (1989-07-07)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_70]
-date=1988258 (1988-09-14)
+date=1989198 (1989-07-17)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=12088.6
-loss=3022.15
-root_biomass_before=1511.08
+primary_yield=7176.99
+residue=7448.64
+standing_dead=1314.47
+root_biomass_before=1594.01
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_71]
-date=1989105 (1989-04-15)
+date=1989287 (1989-10-14)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_72]
-date=1989174 (1989-06-23)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_73]
-date=1989174 (1989-06-23)
+date=1990134 (1990-05-14)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_73]
+date=1990149 (1990-05-29)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_74]
-date=1989174 (1989-06-23)
+date=1990154 (1990-06-03)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_75]
-date=1989175 (1989-06-24)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_76]
-date=1989233 (1989-08-21)
+date=1990164 (1990-06-13)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_76]
+date=1990190 (1990-07-09)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_77]
-date=1989257 (1989-09-14)
+date=1990200 (1990-07-19)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=13398.5
-loss=3349.63
-root_biomass_before=1674.82
+primary_yield=7850.23
+residue=8152.45
+standing_dead=1438.67
+root_biomass_before=1744.14
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_78]
-date=1990105 (1990-04-15)
+date=1990292 (1990-10-19)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_79]
-date=1990178 (1990-06-27)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_80]
-date=1990178 (1990-06-27)
+date=1991148 (1991-05-28)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_80]
+date=1991161 (1991-06-10)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_81]
-date=1990178 (1990-06-27)
+date=1991166 (1991-06-15)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_82]
-date=1990179 (1990-06-28)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_83]
-date=1990225 (1990-08-13)
+date=1991176 (1991-06-25)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_83]
+date=1991201 (1991-07-20)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_84]
-date=1990257 (1990-09-14)
+date=1991211 (1991-07-30)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=12732
-loss=3182.99
-root_biomass_before=1591.49
+primary_yield=8559.81
+residue=8907.06
+standing_dead=1571.83
+root_biomass_before=1903.87
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_85]
-date=1991108 (1991-04-18)
+date=1991287 (1991-10-14)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_86]
-date=1991187 (1991-07-06)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_87]
-date=1991187 (1991-07-06)
+date=1992125 (1992-05-04)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_87]
+date=1992137 (1992-05-16)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_88]
-date=1991187 (1991-07-06)
+date=1992141 (1992-05-20)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_89]
-date=1991188 (1991-07-07)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_90]
-date=1991238 (1991-08-26)
+date=1992149 (1992-05-28)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_90]
+date=1992175 (1992-06-23)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_91]
-date=1991257 (1991-09-14)
+date=1992185 (1992-07-03)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=10933.9
-loss=2733.49
-root_biomass_before=1366.74
+primary_yield=6635.79
+residue=6886.16
+standing_dead=1215.2
+root_biomass_before=1473.72
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_92]
-date=1992105 (1992-04-14)
+date=1992289 (1992-10-15)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_93]
-date=1992164 (1992-06-12)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_94]
-date=1992164 (1992-06-12)
+date=1993147 (1993-05-27)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_94]
+date=1993158 (1993-06-07)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_95]
-date=1992164 (1992-06-12)
+date=1993163 (1993-06-12)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_96]
-date=1992166 (1992-06-14)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_97]
-date=1992217 (1992-08-04)
+date=1993170 (1993-06-19)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_97]
+date=1993201 (1993-07-20)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_98]
-date=1992258 (1992-09-14)
+date=1993211 (1993-07-30)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=12647.3
-loss=3161.83
-root_biomass_before=1580.92
+primary_yield=6801.03
+residue=7055.3
+standing_dead=1245.05
+root_biomass_before=1510.14
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_99]
-date=1993105 (1993-04-15)
+date=1993288 (1993-10-15)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_100]
-date=1993170 (1993-06-19)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_101]
-date=1993170 (1993-06-19)
+date=1994136 (1994-05-16)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_101]
+date=1994149 (1994-05-29)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_102]
-date=1993170 (1993-06-19)
+date=1994154 (1994-06-03)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_103]
-date=1993171 (1993-06-20)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_104]
-date=1993235 (1993-08-23)
+date=1994162 (1994-06-11)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_104]
+date=1994190 (1994-07-09)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_105]
-date=1993257 (1993-09-14)
+date=1994200 (1994-07-19)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=12939.6
-loss=3234.9
-root_biomass_before=1617.45
+primary_yield=7656.78
+residue=7951.59
+standing_dead=1403.22
+root_biomass_before=1701.16
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_106]
-date=1994105 (1994-04-15)
+date=1994291 (1994-10-18)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_107]
-date=1994168 (1994-06-17)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_108]
-date=1994168 (1994-06-17)
+date=1995141 (1995-05-21)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_108]
+date=1995151 (1995-05-31)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_109]
-date=1994168 (1994-06-17)
+date=1995155 (1995-06-04)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_110]
-date=1994170 (1994-06-19)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_111]
-date=1994218 (1994-08-06)
+date=1995164 (1995-06-13)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_111]
+date=1995191 (1995-07-10)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_112]
-date=1994257 (1994-09-14)
+date=1995201 (1995-07-20)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=13458.1
-loss=3364.53
-root_biomass_before=1682.26
+primary_yield=7145.35
+residue=7422.12
+standing_dead=1309.79
+root_biomass_before=1587.73
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_113]
-date=1995113 (1995-04-23)
+date=1995289 (1995-10-16)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_114]
-date=1995177 (1995-06-26)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_115]
-date=1995177 (1995-06-26)
+date=1996138 (1996-05-17)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_115]
+date=1996153 (1996-06-01)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_116]
-date=1995177 (1995-06-26)
+date=1996157 (1996-06-05)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_117]
-date=1995178 (1995-06-27)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_118]
-date=1995234 (1995-08-22)
+date=1996164 (1996-06-12)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_118]
+date=1996192 (1996-07-10)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_119]
-date=1995257 (1995-09-14)
+date=1996202 (1996-07-20)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=11935.3
-loss=2983.82
-root_biomass_before=1491.91
+primary_yield=7965.08
+residue=8272.9
+standing_dead=1459.92
+root_biomass_before=1769.79
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_120]
-date=1996105 (1996-04-14)
+date=1996286 (1996-10-12)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_121]
-date=1996186 (1996-07-04)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_122]
-date=1996186 (1996-07-04)
+date=1997143 (1997-05-23)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_122]
+date=1997154 (1997-06-03)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_123]
-date=1996186 (1996-07-04)
+date=1997159 (1997-06-08)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_124]
-date=1996187 (1996-07-05)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_125]
-date=1996240 (1996-08-27)
+date=1997166 (1997-06-15)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_125]
+date=1997194 (1997-07-13)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_126]
-date=1996258 (1996-09-14)
+date=1997204 (1997-07-23)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=11124.1
-loss=2781.02
-root_biomass_before=1390.51
+primary_yield=7661.9
+residue=7959.18
+standing_dead=1404.56
+root_biomass_before=1702.56
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_127]
-date=1997105 (1997-04-15)
+date=1997290 (1997-10-17)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_128]
-date=1997170 (1997-06-19)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_129]
-date=1997170 (1997-06-19)
+date=1998135 (1998-05-15)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_129]
+date=1998152 (1998-06-01)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_130]
-date=1997170 (1997-06-19)
+date=1998156 (1998-06-05)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_131]
-date=1997172 (1997-06-21)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_132]
-date=1997228 (1997-08-16)
+date=1998164 (1998-06-13)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_132]
+date=1998190 (1998-07-09)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_133]
-date=1997257 (1997-09-14)
+date=1998200 (1998-07-19)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=13214.1
-loss=3303.52
-root_biomass_before=1651.76
+primary_yield=7468.44
+residue=7758.68
+standing_dead=1369.18
+root_biomass_before=1659.63
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_134]
-date=1998110 (1998-04-20)
+date=1998290 (1998-10-17)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_135]
-date=1998179 (1998-06-28)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_136]
-date=1998179 (1998-06-28)
+date=1999143 (1999-05-23)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_136]
+date=1999155 (1999-06-04)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_137]
-date=1998179 (1998-06-28)
+date=1999160 (1999-06-09)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_138]
-date=1998180 (1998-06-29)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_139]
-date=1998223 (1998-08-11)
+date=1999167 (1999-06-16)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_139]
+date=1999194 (1999-07-13)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_140]
-date=1998257 (1998-09-14)
+date=1999204 (1999-07-23)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=12152.7
-loss=3038.18
-root_biomass_before=1519.09
+primary_yield=9440.92
+residue=9819.56
+standing_dead=1732.86
+root_biomass_before=2099.33
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_141]
-date=1999107 (1999-04-17)
+date=1999289 (1999-10-16)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_142]
-date=1999186 (1999-07-05)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_143]
-date=1999186 (1999-07-05)
+date=2000136 (2000-05-15)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_143]
+date=2000146 (2000-05-25)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_144]
-date=1999186 (1999-07-05)
+date=2000150 (2000-05-29)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_145]
-date=1999187 (1999-07-06)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_146]
-date=1999239 (1999-08-27)
+date=2000159 (2000-06-07)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_146]
+date=2000187 (2000-07-05)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_147]
-date=1999257 (1999-09-14)
+date=2000197 (2000-07-15)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=12278.7
-loss=3069.67
-root_biomass_before=1534.83
+primary_yield=7772.89
+residue=8064.43
+standing_dead=1423.14
+root_biomass_before=1726.05
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_148]
-date=2000105 (2000-04-14)
+date=2000290 (2000-10-16)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_149]
-date=2000176 (2000-06-24)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_150]
-date=2000176 (2000-06-24)
+date=2001153 (2001-06-02)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_150]
+date=2001165 (2001-06-14)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_151]
-date=2000176 (2000-06-24)
+date=2001170 (2001-06-19)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_152]
-date=2000177 (2000-06-25)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_153]
-date=2000229 (2000-08-16)
+date=2001177 (2001-06-26)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_153]
+date=2001200 (2001-07-19)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_154]
-date=2000258 (2000-09-14)
+date=2001210 (2001-07-29)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=13351.3
-loss=3337.83
-root_biomass_before=1668.92
+primary_yield=7624.16
+residue=7943.25
+standing_dead=1401.75
+root_biomass_before=1696.92
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_155]
-date=2001106 (2001-04-16)
+date=2001290 (2001-10-17)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_156]
-date=2001177 (2001-06-26)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_157]
-date=2001177 (2001-06-26)
+date=2002144 (2002-05-24)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_157]
+date=2002154 (2002-06-03)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_158]
-date=2001177 (2001-06-26)
+date=2002158 (2002-06-07)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_159]
-date=2001179 (2001-06-28)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_160]
-date=2001229 (2001-08-17)
+date=2002166 (2002-06-15)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_160]
+date=2002190 (2002-07-09)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_161]
-date=2001257 (2001-09-14)
+date=2002200 (2002-07-19)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=12619.3
-loss=3154.82
-root_biomass_before=1577.41
+primary_yield=8271.65
+residue=8611.26
+standing_dead=1519.63
+root_biomass_before=1840.25
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_162]
-date=2002111 (2002-04-21)
+date=2002290 (2002-10-17)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_163]
-date=2002179 (2002-06-28)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_164]
-date=2002179 (2002-06-28)
+date=2003135 (2003-05-15)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_164]
+date=2003148 (2003-05-28)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_165]
-date=2002179 (2002-06-28)
+date=2003151 (2003-05-31)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_166]
-date=2002180 (2002-06-29)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_167]
-date=2002232 (2002-08-20)
+date=2003158 (2003-06-07)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_167]
+date=2003184 (2003-07-03)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_168]
-date=2002257 (2002-09-14)
+date=2003194 (2003-07-13)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=12177.8
-loss=3044.46
-root_biomass_before=1522.23
+primary_yield=7499.74
+residue=7784.67
+standing_dead=1373.76
+root_biomass_before=1665.82
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_169]
-date=2003106 (2003-04-16)
+date=2003288 (2003-10-15)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_170]
-date=2003176 (2003-06-25)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_171]
-date=2003176 (2003-06-25)
+date=2004132 (2004-05-11)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_171]
+date=2004146 (2004-05-25)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_172]
-date=2003176 (2003-06-25)
+date=2004150 (2004-05-29)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_173]
-date=2003177 (2003-06-26)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_174]
-date=2003223 (2003-08-11)
+date=2004159 (2004-06-07)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_174]
+date=2004185 (2004-07-03)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_175]
-date=2003257 (2003-09-14)
+date=2004195 (2004-07-13)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=12586.1
-loss=3146.51
-root_biomass_before=1573.26
+primary_yield=7273.21
+residue=7550.27
+standing_dead=1332.4
+root_biomass_before=1615.59
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_176]
-date=2004105 (2004-04-14)
+date=2004287 (2004-10-13)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_177]
-date=2004177 (2004-06-25)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_178]
-date=2004177 (2004-06-25)
+date=2005128 (2005-05-08)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_178]
+date=2005141 (2005-05-21)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_179]
-date=2004177 (2004-06-25)
+date=2005146 (2005-05-26)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_180]
-date=2004178 (2004-06-26)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_181]
-date=2004225 (2004-08-12)
+date=2005154 (2005-06-03)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_181]
+date=2005183 (2005-07-02)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_182]
-date=2004258 (2004-09-14)
+date=2005193 (2005-07-12)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=11675.5
-loss=2918.87
-root_biomass_before=1459.43
+primary_yield=7467.69
+residue=7750.09
+standing_dead=1367.66
+root_biomass_before=1658.54
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_183]
-date=2005107 (2005-04-17)
+date=2005288 (2005-10-15)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_184]
-date=2005175 (2005-06-24)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_185]
-date=2005175 (2005-06-24)
+date=2006137 (2006-05-17)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_185]
+date=2006147 (2006-05-27)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_186]
-date=2005175 (2005-06-24)
+date=2006152 (2006-06-01)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_187]
-date=2005176 (2005-06-25)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_188]
-date=2005225 (2005-08-13)
+date=2006159 (2006-06-08)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_188]
+date=2006185 (2006-07-04)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_189]
-date=2005257 (2005-09-14)
+date=2006195 (2006-07-14)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=12760.2
-loss=3190.05
-root_biomass_before=1595.03
+primary_yield=6945.76
+residue=7218.41
+standing_dead=1273.84
+root_biomass_before=1543.8
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_190]
-date=2006105 (2006-04-15)
+date=2006289 (2006-10-16)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_191]
-date=2006176 (2006-06-25)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_192]
-date=2006176 (2006-06-25)
+date=2007136 (2007-05-16)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_192]
+date=2007147 (2007-05-27)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_193]
-date=2006176 (2006-06-25)
+date=2007152 (2007-06-01)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_194]
-date=2006177 (2006-06-26)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_195]
-date=2006225 (2006-08-13)
+date=2007158 (2007-06-07)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_195]
+date=2007186 (2007-07-05)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_196]
-date=2006257 (2006-09-14)
+date=2007196 (2007-07-15)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=12210
-loss=3052.5
-root_biomass_before=1526.25
+primary_yield=7580.02
+residue=7873.33
+standing_dead=1389.41
+root_biomass_before=1684.28
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_197]
-date=2007113 (2007-04-23)
+date=2007289 (2007-10-16)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_198]
-date=2007175 (2007-06-24)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_199]
-date=2007175 (2007-06-24)
+date=2008150 (2008-05-29)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_199]
+date=2008164 (2008-06-12)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_200]
-date=2007175 (2007-06-24)
+date=2008168 (2008-06-16)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_201]
-date=2007177 (2007-06-26)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_202]
-date=2007227 (2007-08-15)
+date=2008175 (2008-06-23)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_202]
+date=2008197 (2008-07-15)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_203]
-date=2007257 (2007-09-14)
+date=2008207 (2008-07-25)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=13327.7
-loss=3331.93
-root_biomass_before=1665.96
+primary_yield=7997.23
+residue=8337.94
+standing_dead=1471.4
+root_biomass_before=1780.66
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_204]
-date=2008105 (2008-04-14)
+date=2008292 (2008-10-18)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_205]
-date=2008183 (2008-07-01)
-type=Tuber initiation
-description=Tuber initiation
+date=2009146 (2009-05-26)
+type=Maximum canopy
+description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_206]
-date=2008183 (2008-07-01)
+date=2009155 (2009-06-04)
 type=Begin flowering
 description=Begin flowering
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_207]
-date=2008183 (2008-07-01)
-type=Maximum canopy
-description=Maximum canopy
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_208]
-date=2008183 (2008-07-01)
+date=2009158 (2009-06-07)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
-[crop_event_209]
-date=2008236 (2008-08-23)
+[crop_event_208]
+date=2009166 (2009-06-15)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_209]
+date=2009192 (2009-07-11)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_210]
-date=2008258 (2008-09-14)
+date=2009202 (2009-07-21)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=12037.6
-loss=3009.4
-root_biomass_before=1504.7
+primary_yield=7601.62
+residue=7894.94
+standing_dead=1393.22
+root_biomass_before=1688.98
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_211]
-date=2009108 (2009-04-18)
+date=2009292 (2009-10-19)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_212]
-date=2009171 (2009-06-20)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_213]
-date=2009171 (2009-06-20)
+date=2010149 (2010-05-29)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_213]
+date=2010162 (2010-06-11)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_214]
-date=2009171 (2009-06-20)
+date=2010166 (2010-06-15)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_215]
-date=2009173 (2009-06-22)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_216]
-date=2009221 (2009-08-09)
+date=2010175 (2010-06-24)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_216]
+date=2010200 (2010-07-19)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_217]
-date=2009257 (2009-09-14)
+date=2010210 (2010-07-29)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=12203.8
-loss=3050.94
-root_biomass_before=1525.47
+primary_yield=8970.78
+residue=9342.49
+standing_dead=1648.67
+root_biomass_before=1996.19
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_218]
-date=2010105 (2010-04-15)
+date=2010288 (2010-10-15)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_219]
-date=2010184 (2010-07-03)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_220]
-date=2010184 (2010-07-03)
+date=2011154 (2011-06-03)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_220]
+date=2011166 (2011-06-15)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_221]
-date=2010184 (2010-07-03)
+date=2011171 (2011-06-20)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_222]
-date=2010185 (2010-07-04)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_223]
-date=2010236 (2010-08-24)
+date=2011179 (2011-06-28)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_223]
+date=2011205 (2011-07-24)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_224]
-date=2010257 (2010-09-14)
+date=2011215 (2011-08-03)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=11032.6
-loss=2758.14
-root_biomass_before=1379.07
+primary_yield=8522.15
+residue=8868.45
+standing_dead=1565.02
+root_biomass_before=1895.56
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_225]
-date=2011117 (2011-04-27)
+date=2011289 (2011-10-16)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_226]
-date=2011192 (2011-07-11)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_227]
-date=2011192 (2011-07-11)
+date=2012147 (2012-05-26)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_227]
+date=2012160 (2012-06-08)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_228]
-date=2011192 (2011-07-11)
+date=2012165 (2012-06-13)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_229]
-date=2011193 (2011-07-12)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_230]
-date=2011250 (2011-09-07)
+date=2012173 (2012-06-21)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_230]
+date=2012198 (2012-07-16)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_231]
-date=2011257 (2011-09-14)
+date=2012208 (2012-07-26)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=10336.1
-loss=2584.03
-root_biomass_before=1292.02
+primary_yield=7942.71
+residue=8268.45
+standing_dead=1459.14
+root_biomass_before=1767.03
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_232]
-date=2012106 (2012-04-15)
+date=2012289 (2012-10-15)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_233]
-date=2012182 (2012-06-30)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_234]
-date=2012182 (2012-06-30)
+date=2013140 (2013-05-20)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_234]
+date=2013155 (2013-06-04)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_235]
-date=2012182 (2012-06-30)
+date=2013158 (2013-06-07)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_236]
-date=2012183 (2012-07-01)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_237]
-date=2012233 (2012-08-20)
+date=2013167 (2013-06-16)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_237]
+date=2013191 (2013-07-10)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_238]
-date=2012258 (2012-09-14)
+date=2013201 (2013-07-20)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=11781.2
-loss=2945.29
-root_biomass_before=1472.65
+primary_yield=8198.92
+residue=8535.8
+standing_dead=1506.32
+root_biomass_before=1824.1
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_239]
-date=2013109 (2013-04-19)
+date=2013292 (2013-10-19)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_240]
-date=2013175 (2013-06-24)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_241]
-date=2013175 (2013-06-24)
+date=2014146 (2014-05-26)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_241]
+date=2014157 (2014-06-06)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_242]
-date=2013175 (2013-06-24)
+date=2014160 (2014-06-09)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_243]
-date=2013177 (2013-06-26)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_244]
-date=2013223 (2013-08-11)
+date=2014169 (2014-06-18)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_244]
+date=2014193 (2014-07-12)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_245]
-date=2013257 (2013-09-14)
+date=2014203 (2014-07-22)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=12111.9
-loss=3027.97
-root_biomass_before=1513.98
+primary_yield=7700.11
+residue=7999.61
+standing_dead=1411.7
+root_biomass_before=1711.14
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_246]
-date=2014105 (2014-04-15)
+date=2014286 (2014-10-13)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_247]
-date=2014173 (2014-06-22)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_248]
-date=2014173 (2014-06-22)
+date=2015115 (2015-04-25)
 type=Maximum canopy
 description=Maximum canopy
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_248]
+date=2015130 (2015-05-10)
+type=Begin flowering
+description=Begin flowering
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_249]
-date=2014173 (2014-06-22)
+date=2015134 (2015-05-14)
 type=Grain filling
 description=Grain filling
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 [crop_event_250]
-date=2014175 (2014-06-24)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_251]
-date=2014219 (2014-08-07)
+date=2015143 (2015-05-23)
 type=Begin senescence
 description=Begin senescence
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
+[crop_event_251]
+date=2015168 (2015-06-17)
+type=Maturity
+description=Maturity
+model=CropSyst:crop
+RUSLE2_crop_name=
+RUSLE2_crop_description=
 [crop_event_252]
-date=2014257 (2014-09-14)
+date=2015178 (2015-06-27)
 type=biomass_fate
 description=biomass_fate
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
 cause=harvest_once
-primary_yield=12266.2
-loss=3066.56
-root_biomass_before=1533.28
+primary_yield=6298.01
+residue=6532.49
+standing_dead=1152.79
+root_biomass_before=1398.33
 units=kg/ha
 RUSLE2_crop_name=
 [crop_event_253]
-date=2015107 (2015-04-17)
+date=2015286 (2015-10-13)
 type=Active growth
 description=Active growth
 model=CropSyst:crop
 RUSLE2_crop_name=
 RUSLE2_crop_description=
-[crop_event_254]
-date=2015163 (2015-06-12)
-type=Tuber initiation
-description=Tuber initiation
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_255]
-date=2015163 (2015-06-12)
-type=Maximum canopy
-description=Maximum canopy
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_256]
-date=2015163 (2015-06-12)
-type=Grain filling
-description=Grain filling
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_257]
-date=2015164 (2015-06-13)
-type=Begin flowering
-description=Begin flowering
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_258]
-date=2015209 (2015-07-28)
-type=Begin senescence
-description=Begin senescence
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-[crop_event_259]
-date=2015257 (2015-09-14)
-type=biomass_fate
-description=biomass_fate
-model=CropSyst:crop
-RUSLE2_crop_name=
-RUSLE2_crop_description=
-cause=harvest_once
-primary_yield=12573.2
-loss=3143.29
-root_biomass_before=1571.64
-units=kg/ha
-RUSLE2_crop_name=

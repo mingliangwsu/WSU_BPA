@@ -10,10 +10,10 @@ minor=4
 [sowing:1]
 ID=CT_WW
 event_synchronization=actual_date
-event_date=285 (0000/10/11 (actual date))
+event_date=280 (0000/10/7 (actual date))
 enabled=true
 checked=true
 description=Winter Wheat- Sowing date was come from Dr. Stockle email at Thursday, July 26, 2012
 crop=../../Crop/Name/wheat_winter.crp
 management=../../Management/Name/CT_wheat_winter-irrigated.mgt
-date=285 (0000/10/11 (actual date))
+date=280 (0000/10/7 (actual date))

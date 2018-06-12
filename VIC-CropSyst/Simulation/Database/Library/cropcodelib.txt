@@ -1,9 +1,11 @@
 #cropcode cropname
 0 NOCROP
+201 Barley
 204 corn_grain-irrigated
 210 wheat_spring-high
 210 wheat_spring-intermediate
 210 wheat - spring
+210 wheat_spring
 218 wheat_winter-high
 218 wheat - winter
 218 wheat - winter_LelandVBA
@@ -14,8 +16,15 @@
 299 garbanzo
 701 alfalfa (Medicago sativa)
 701 Alfalfa OFoot Generic
+701 Alfalfa_OFoot_Generic
 1401 apple
+1803 Bean_Bush_Dry_OFoot_Generic
+1810 Carrot_OFoot_Generic
+1814 Sweet_corn_OFoot_Generic
+1822 Onion_Bulb_OFoot_Generic
 1825 pea_spring-high
+1825 Pea_green_OFoot_Generic
 1827 potato-irrigated
 1832 sugarbeet (Beta vulgaris)
+1902 canola_winter-intermediate
 2002 winegrape

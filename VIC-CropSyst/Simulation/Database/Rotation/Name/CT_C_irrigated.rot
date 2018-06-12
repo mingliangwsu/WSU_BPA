@@ -1,0 +1,20 @@
+[rotation]
+details_URL=
+description=Grain Corn
+years=1
+sowing:count=1
+[version]
+major=4
+release=17
+minor=4
+[sowing:1]
+ID=CT_C
+res_set_ID=0
+event_synchronization=relative_date
+event_date=0135
+enabled=true
+checked=true
+description=Grain Corn- Sowing date was come from http://naldc.nal.usda.gov/download/30561/PDF
+crop=../../Crop/Name/corn_grain-irrigated.crp
+management=../../Management/Name/CT_corn_grain-irrigated.mgt
+date=0135
