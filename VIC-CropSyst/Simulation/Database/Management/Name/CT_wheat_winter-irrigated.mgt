@@ -255,7 +255,7 @@ operation_name=
 operation_filename=noname.op
 enable_for_model=secondary_only
 begin_synchronization=before_planting
-begin_offset=20
+begin_offset=0
 description=Irrigation of Potato MAD=0.2, 0.6 m
 name=
 start_hour=13 Start hour

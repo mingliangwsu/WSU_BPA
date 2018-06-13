@@ -65,12 +65,12 @@ RUE_PAR=2.80000000 Photosynthetically Active Radiation (PAR) basis
 biomass_transpiration_coef=5.00000000 Above ground biomass transpiration coefficient (K) for annuals annual
 biomass_transpiration_coef_veg=5.00000000 Above ground biomass transpiration coefficient (K) for annuals annual
 early_growth_limit_temp=10.00000000 Mean daily temperature that limits early growth
-min_tolerable_temp=7
-max_tolerable_temp=40
-low_threshold_limit_temp=20
-high_threshold_limit_temp=28
-LWP_reduces_canopy_expansion=-1000
-LWP_stops_canopy_expansion=-1400
+min_tolerable_temp=0.00000000 Minimum tolerable temperature
+max_tolerable_temp=45.00000000 Maximum tolerable temperature
+low_threshold_limit_temp=10.00000000 Low threshold limitation temperature
+high_threshold_limit_temp=30.00000000 High threshold limitation temperature
+LWP_reduces_canopy_expansion=-800.00000000 Leaf water potential that begins reduction of canopy expansion
+LWP_stops_canopy_expansion=-1200.00000000 Leaf water potential that stops canopy expansion
 [morphology]
 max_canopy_height=3
 [harvest_index]
@@ -94,7 +94,7 @@ fruit_damage_cold_temp=-5.00000000 Minimum daily air temperature which begins to
 fruit_lethal_cold_temp=-10.00000000 Minimum daily air temperature which is lethal to flower/fruit
 [fruit]
 fract_total_solids=0.300000 Fraction of total solids
-max_fruit_load=39200
+max_fruit_load=392000.00000000 Max. fruit load (fresh mass)
 initial_growth_fraction_to_fruit=0.89999998 Fraction of above biomass apportioned to fruit after flowering
 rapid_growth_fraction_to_fruit=0.64999998 Fraction of above biomass apportioned to fruit during accelerated fruit growth
 harvest_temperature=15.00000000 Low temperature for harvest
@@ -109,8 +109,8 @@ max_water_uptake_after_maturity=10.00000000 after maturity
 grape=false
 harvest_condition=management_scheduled
 [CO2]
-TUE_reference_conc=360
-RUE_reference_conc=360
+TUE_reference_conc=350.00000000 transpiration use efficiency CO2 concentration when measured
+RUE_reference_conc=350.00000000 radiation use efficiency CO2 concentration when measured
 alpha=0.00383600 alpha Non-rectangular hyperbola solution for estimated relative growth
 theta=0.99089998 theta Non-rectangular hyperbola solution for estimated relative growth
 growth_ratio_asymptotic=1.26024997 asymptotic growth ratio

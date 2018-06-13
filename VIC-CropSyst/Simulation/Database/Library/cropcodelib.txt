@@ -17,7 +17,10 @@
 701 alfalfa (Medicago sativa)
 701 Alfalfa OFoot Generic
 701 Alfalfa_OFoot_Generic
+807 mint
 1401 apple
+1403 cherry
+1527 Grass_seed
 1803 Bean_Bush_Dry_OFoot_Generic
 1810 Carrot_OFoot_Generic
 1814 Sweet_corn_OFoot_Generic

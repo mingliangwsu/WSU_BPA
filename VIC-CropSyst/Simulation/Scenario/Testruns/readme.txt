@@ -1,7 +1,7 @@
 180604LML:
 
 Test runs for various crops/rotations:
-Irrigated potato (4004): 309119 45.84375 -119.09375
+Irrigated potato (4004): 309119 45.84375 -119.09375    //Not using the excel version of Photato parameter
 Winter Wheat     (4005): 308201 45.78125 -118.46875 
 Spring Wheat     (4006): 307255 45.71875 -119.59375
 Corn             (4007): 310974 45.96875 -119.15625
@@ -13,8 +13,10 @@ Barley(21)       (4011): 300756 45.28125 -119.78125    //(201) Normally it is no
 Onion(49)        (4100): 308179 45.78125 -119.84375    //NOTE: need right management for harvest information.
 Canola(31) Winter(4101): 308186 45.78125 -119.40625
 Carrots(206)     (4102): 310037 45.90625 -119.71875    //check harvest data & management file     
-
-Apple(68)        (1401): 314691 46.21875 -118.84375    //(1401)
+Apple(68)        (1401): 314691 46.21875 -118.84375    //(1401) Warning: The daily waterstress is set 1 during dormant season. 
+Grass seeds(59)  (1527): 307259 45.71875 -119.34375    //perennual crops Warning: the management parameter file (harvest events should be set!!!) Maturity GDD set: 1600
+Mint(14)         (5702): 308189 45.78125 -119.21875    //(807) 
+Cherry(66)       (1403): 308184 45.78125 -119.53125    //(1403)
  
 
 Carrots & Onion: planting date: Apr. 1; harvest date: Oct. 1
@@ -22,7 +24,7 @@ if model=canopy_cover_2017, set thermal_time_season_end equals full_senescence
 
 
 
-For this run, all crops has no rotations, i.e. all crop is single crop. 
+For this run, all crops has no rotations, i.e. all crop is single crop (except Alfalfa & Mint, which has 5 year rotation). 
 
 Procedure for setting certain gridcell level simulations ( steps 1-8):
 
@@ -62,3 +64,11 @@ Step 4-7 can be batched in the script batch4_8_generate_parameter_files.sh [GRID
 irrigation:  DEFAULT_CENTER_PIVOT
 
 
+//180611:
+/home/liuming/dev/toolkits/ForVIC/python/update_crop_parameter_from_excel_table_converted_txt.py
+It is the source code to replace crop parameter values from Claudio's excel table (has been converted into tab seperated text file).
+The file "replace_paramater_all.sh" in the directory of "/home/liuming/Projects/WSU_BPA/VIC-CropSyst/Simulation/Database/Crop/Name" is the batch script to replace all crops types in the list.
+Note: 
+1: It seems the new parameters for Potato is not right.
+2: found problem on Barley: the start sychronization for irrigation is sensitive to harvest date. If the sowing date is too late (i.e. not more than 20 days, the irrigation season will not be initialized and the irrigation never happen!!!). Now set offday = 0
+3. Seems the new apple parameter does not work

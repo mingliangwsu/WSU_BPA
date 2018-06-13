@@ -1,0 +1,226 @@
+
+[GUI]
+show=FFFF
+version=0
+
+[crop]
+details_URL=
+description=Russet 
+feed_name_immature=
+feed_name_midmature=
+feed_name_mature=
+model=crop
+harvested_part=tuber
+RUSLE2_name=
+RUSLE2_description=
+abscission=none
+photosynthetic_pathway=C3
+life_cycle=annual
+land_use=SMALL_GRAIN
+season_dormancy_mode=single
+canopy_growth=canopy_cover_2017
+adjustment:count=0
+linger=90 days
+grain_stress_period:count=0
+
+[water_use_efficiency]
+season2_adj=1.00000000
+season3_adj=1.00000000
+season4_adj=1.00000000
+season5_adj=1.00000000
+
+[leaf]
+senesces=true
+clip_newest=true
+max_LAI=5.00 m²/m²
+fract_LAI_mature=0.10 0-1
+initial_GAI=0.010 m²/m²
+regrowth_GAI=0.050 m²/m²
+specific_leaf_area=22.00 m²/kg
+stem_leaf_partition=2.50 0-4
+duration=1500 Degree days
+duration_stress_sensitivity=0.10 0-3
+
+[Jordi]
+a1=0.00000000
+a2=0.00000000
+
+[transpiration]
+ET_crop_coef=1.05 0.8-1.4
+max_water_uptake=12.00 mm/day
+stomatal_closure_leaf_water_pot=-1200.00 J/kg
+wilt_leaf_water_pot=-1500.00 J/kg
+kc=0.48 0-1
+
+[growth]
+WUE_changes=false
+TUE_equation=TUE_curve
+TUE_scaling_coef=0.50 -
+TUE_scaling_coef_veg=0.45 -
+TUE_at_1pKa_VPD=4.80 g BM/kg H2O
+TUE_at_1pKa_VPD_veg=4.80 g BM/kg H2O
+water_productivity=5.00 g BM/kg H2O
+water_productivity_veg=5.00 g BM/kg H2O
+RUE_global=1.600000 g/MJ
+biomass_transpiration_coef=4.75 Pa
+biomass_transpiration_coef_veg=5.00 Pa
+min_tolerable_temp=10.0 °C
+max_tolerable_temp=35.0 °C
+low_threshold_limit_temp=20.0 °C
+high_threshold_limit_temp=26.0 °C
+LWP_reduces_canopy_expansion=-1100.00 J/kg
+LWP_stops_canopy_expansion=-1300.00 J/kg
+
+[morphology]
+max_canopy_height=1.50 m
+
+[harvest_index]
+unstressed=0.80 0-1
+tuber_init_sensitivity=0.00 0.5-1.5
+tuber_growth_sensitivity=0.00 0.5-1.5
+translocation_max=0.350 0-1
+adjust_HI=false
+heat_extreme=true
+
+
+[hardiness]
+enabled=false
+tuber_crit_temperature=17.00000000
+damage_cold_temp=-0.50 °C
+lethal_cold_temp=-6.00
+
+[nitrogen]
+fixation=false
+legume_fraction=1.00000000
+nitrogen_leaf_stress_mode=none
+TUE_stress_sensitivity=0.50000000
+max_uptake_daily_rate=6.00 kg/ha/day
+stubble_max_conc=0.007 kgN/kgDM
+root_conc=0.007 kgN/kgDM
+dilution_curve_slope=0.420 0-1
+residual_N_not_available_for_uptake=1.000 ppm
+soil_N_conc_where_N_uptake_decreases=5.000 ppm
+PAW_where_N_uptake_rate_decreases=0.500 0-1
+emergence_max_conc=0.070 kgN/kgDM
+emergence_crit_conc=0.053 kgN/kgDM
+biomass_to_start_dilution_crit_N_conc=1.500 tn/ha
+N_mature_max_conc=0.02300 kgN/kgDM
+end_dilution_curve=820 °C-days
+
+[fruit]
+fract_total_solids=0.35 0-1
+max_fruit_load=20000.00 kg/ha
+initial_growth_fraction_to_fruit=0.90 0-1
+rapid_growth_fraction_to_fruit=0.65 0-1
+harvest_temperature=15.0 °C
+harvest_temperature_days=5 Days
+earliest_harvest=258 DOY
+latest_harvest=275 DOY
+max_water_uptake_before_fruiting=10.00 mm/day
+max_water_uptake_during_initial_fruit=10.00 mm/day
+max_water_uptake_during_radid_fruit=10.00 mm/day
+max_water_uptake_during_veraison=10.00 mm/day
+max_water_uptake_after_maturity=10.00 mm/day
+
+[CO2]
+TUE_reference_conc=360.0 ppm
+RUE_reference_conc=360.0 ppm
+alpha=0.002902
+theta=0.980000
+growth_ratio_asymptotic=1.4500000477
+
+[salinity]
+osmotic_pot_50=0.00000000000 kPa
+tolerance_P=0.00000000000 1-5
+
+[canopy_characteristics]
+initial_width=1.00 m
+final_width=1.00 m
+initial_breadth=2.00 m
+final_breadth=2.00 m
+initial_height=1.20 m
+final_height=1.20 m
+branch_insertion_height=0.60 m
+
+[layout]
+row_spacing=2.70 m
+row_azimuth=0.00 0 = North, 90 = East, 180 = South,  270 = West
+col_spacing=2.50 m
+
+[canopy_cover]
+initial=0.01 fraction
+maximum=0.92 fraction
+total_season_end=0.80 fraction
+green_season_end=0.00 fraction
+thermal_time_season_end=1900.00 fraction
+shape_accrescent=9.00 coef
+shape_senescent=9.00 coef
+rel_TT_at_half_CC_max=0.50 fraction
+
+[phenology]
+maturity_significant=true
+clipping_resets=false
+emergence=1 °C-days
+flowering=500 °C-days
+peak_LAI=370 °C-days
+max_root_depth=370 °C-days
+tuber_init=370 °C-days
+filling=370 °C-days
+rapid_fruit_growth=1300 °C-days
+maturity=4000 °C-days
+water_stress_sensitivity=0.50 0-1
+WUE_change=1000 °C-days
+senescence=800 °C-days
+full_senescence=4000 °C-days
+thermal_response=linear
+base_temp=10.00 °C
+cutoff_temp=40.00 °C
+optimal_temp=30.00 °C
+maximum_temp=40.00 °C
+
+[root]
+initial_depth=0.20000000
+root_sensitivity_water_stress=0.00 index
+max_root_depth=0.60 m
+surface_root_density=3.00 cm/cm³
+root_density_distribution_curvature=0.010 0.0001-6.0
+root_length_at_emergence=2.00 cm
+root_shoot_emergence_ratio=2.00 ratio
+root_shoot_full_ratio=0.10 ratio
+
+[inactive_period]
+consider_inactive_days=7 days
+inducement_temperature=15.00 °C
+start_valid_date=214
+end_valid_date=0
+
+[residue]
+RUSLE2_type=moderate
+decomposition_time_50=41
+fast_cycling_top_fraction=0.05
+slow_cycling_top_fraction=0.75
+lignified_top_fraction=0.20
+fast_cycling_root_fraction=0.05
+slow_cycling_root_fraction=0.70
+lignified_root_fraction=0.25
+fast_cycling_decomposition_time_50=3.50
+slow_cycling_decomposition_time_50=9.99
+lignified_decomposition_time_50=115.07
+detrition_time_50=720.0
+carbon_fraction=0.46
+stubble_area_covered_to_mass_ratio=2.00
+area_covered_to_mass_ratio=4.00
+
+[vernalization]
+enabled=false
+low_temp=2.00 °C
+high_temp=6.00 °C
+start=0.00 °C-days
+end=50.00 °C-days
+min_factor=0.00 0-1
+
+[photoperiod]
+photoperiodism=none
+stop=0.00 hours
+unconstrain=0.00 hours
+

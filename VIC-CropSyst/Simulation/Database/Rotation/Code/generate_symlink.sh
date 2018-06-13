@@ -12,4 +12,5 @@ ln -s ../Name/CT_Barley.rot 4011.CS_rotation
 ln -s ../Name/CT_Onion.rot 4100.CS_rotation
 ln -s ../Name/CT_-WC_intermediate.rot 4101.CS_rotation
 ln -s ../Name/CT_Carrot.rot 4102.CS_rotation
+ln -s ../Name/CT_Mint.rot 5702.CS_rotation
 
