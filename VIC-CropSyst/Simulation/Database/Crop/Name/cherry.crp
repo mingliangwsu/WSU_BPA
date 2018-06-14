@@ -127,19 +127,17 @@ row_spacing=2.70000005 Spacing between rows
 row_azimuth=0.00000000 Row azimuth
 col_spacing=2.50000000 Spacing along (within) rows
 [canopy_cover]
-initial=0.05
-maximum=0.5
-total_season_end=0.5
-shape_accrescent=9
-shape_senescent=9
+CC_initial=0.05
+CC_maximum=0.89999998 Maximum canopy cover
+CC_mature_total=0.10000000 Total canopy cover at maturity (green and senesced)
 rel_TT_at_half_CC_max=0.5
 [phenology]
 maturity_significant=true
 clipping_resets=false
-emergence=120
-flowering=470
-peak_LAI=50
-filling=1250
+emergence=130 Emergence
+flowering=70 Begin flowering
+peak_LAI=1000 End canopy growth
+filling=500 Begin filling (seed filling, or orchard fruit filling, or tuber bulking)
 maturity=1800.00000000 Physiological maturity
 water_stress_sensitivity=0.00000000 Adjustment factor for phenologic response to stress
 WUE_change=1000.00000000 Thermal time for change of water use efficiency
@@ -157,7 +155,7 @@ maximum_temp=0
 [root]
 initial_depth=0.15
 root_sensitivity_water_stress=0.5
-max_root_depth
+max_root_depth=2.5
 surface_root_density=3
 root_density_distribution_curvature=0.10000000 Curvature of root density distribution
 root_length_per_unit_mass=90.00000000 Root length per unit root mass

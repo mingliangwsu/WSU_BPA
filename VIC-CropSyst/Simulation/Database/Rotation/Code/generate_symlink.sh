@@ -13,4 +13,6 @@ ln -s ../Name/CT_Onion.rot 4100.CS_rotation
 ln -s ../Name/CT_-WC_intermediate.rot 4101.CS_rotation
 ln -s ../Name/CT_Carrot.rot 4102.CS_rotation
 ln -s ../Name/CT_Mint.rot 5702.CS_rotation
-
+ln -s ../Name/GENERIC_Crop.rot 6001.CS_rotation
+ln -s ../Name/CT_Camelina.rot 4103.CS_rotation
+ln -s ../Name/CT_Grass_Seed.rot 4104.CS_rotation

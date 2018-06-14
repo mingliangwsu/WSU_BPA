@@ -119,16 +119,20 @@ FROZEN_SOIL		TRUE	# TRUE = calculate frozen soils
 #			FORCE_TYPE	PREC
 #######################################################################
 #FORCING1		../../Database/Weather/UI_historical/data_ 
-FORCING1		../../Database/Weather/Livneh_historical_bin/data_ 
+FORCING1		/home/liuming/Projects/BPA/vic_input/VIC_Binary_CONUS_to_2016_UI_historical/data_ 
 FORCE_FORMAT	BINARY		# BINARY or ASCII
 FORCE_ENDIAN	LITTLE		# LITTLE (PC\Linux) or BIG (SUN)
-N_TYPES			4			# Number of variables (columns)
+N_TYPES			8			# Number of variables (columns)
 FORCE_TYPE		PREC	UNSIGNED	40
 FORCE_TYPE		TMAX	SIGNED		100
 FORCE_TYPE		TMIN	SIGNED		100
 FORCE_TYPE		WIND	SIGNED		100
+FORCE_TYPE		QAIR	SIGNED		10000
+FORCE_TYPE		SHORTWAVE	SIGNED		40
+FORCE_TYPE		RHUM_MAX	SIGNED		100
+FORCE_TYPE		RHUM_MIN	SIGNED		100
 FORCE_DT		24						# Forcing time step length (hours)
-FORCEYEAR		1915					# Year of first forcing record
+FORCEYEAR		1979					# Year of first forcing record
 FORCEMONTH		01						# Month of first forcing record
 FORCEDAY		01						# Day of first forcing record
 FORCEHOUR		00						# Hour of first forcing record
@@ -140,15 +144,15 @@ ALMA_INPUT		FALSE					# TRUE = ALMA-compliant input variable units; FALSE = stan
 #######################################################################
 # Land Surface Files and Parameters
 #######################################################################
-SOIL				../../Database/Soil/soil_param_id_309115.txt   #newsoil_with_soc.txt   # Soil parameter path\file
+SOIL				../../Database/Soil/soil_param_id_309119.txt   #newsoil_with_soc.txt   # Soil parameter path\file
 ARC_SOIL			FALSE   					# TRUE = read soil parameters from ARC\INFO ASCII grids
 #SOIL_DIR			(soil param directory)   	# Directory containing ARC\INFO ASCII grids of soil parameters - only valid if ARC_SOIL is TRUE
 BASEFLOW			ARNO						# ARNO = columns 5-8 are the standard VIC baseflow parameters; NIJSSEN2001 = columns 5-8 of soil file are baseflow parameters from Nijssen et al (2001)
 JULY_TAVG_SUPPLIED	TRUE						# TRUE = final column of the soil parameter file will contain average July air temperature, for computing treeline; this will be ignored if COMPUTE_TREELINE is FALSE; FALSE = compute the treeline based on the average July air temperature of the forcings over the simulation period
 ORGANIC_FRACT		TRUE						# TRUE = simulate organic soils; soil param file contains 3*Nlayer extra columns, listing for each layer the organic fraction, and the bulk density and soil particle density of the organic matter in the soil layer; FALSE = soil param file does not contain any information about organic soil, and organic fraction should be assumed to be 0
 VEGLIB				../../Database/Library/veglib_LAI_added2016_with_crp.txt	# Veg library path\file
-VEGPARAM			../../Database/Veg/veg_param_id_309115.txt	# Veg parameter path\file
-IRRIGPARAM			../../Database/Management/irrigation_param_id_309115.txt	# irrigation parameter path\file
+VEGPARAM			../../Database/Veg/veg_param_id_309119.txt	# Veg parameter path\file
+IRRIGPARAM			../../Database/Management/irrigation_param_id_309119.txt	# irrigation parameter path\file
 CROPCODELIB         ../../Database/Library/cropcodelib.txt
 
 ROOT_ZONES			3							# Number of root zones (must match format of veg param file)
@@ -160,7 +164,7 @@ SNOW_BAND			5	../../Database/Snow/snowbands.0625.PNW.052108.id_sorted.txt	# Numb
 # Crop related files for running the crop model
 #######################################################################
 #NCROPSINLIB				15 					#Total number of crops in the crops library
-CO2_PPM					360 				#CO2 concentration in ppm. Current climate- 370 ppm and future climate- 437 ppm (2030s B1) and 461 (2030s A1B). 437 #CO2 concentration in ppm. Current climate- 370 ppm and future climate- 437 ppm (2030s B1) and 461 (2030s A1B). 
+CO2_PPM					370 				#CO2 concentration in ppm. Current climate- 370 ppm and future climate- 437 ppm (2030s B1) and 461 (2030s A1B). 437 #CO2 concentration in ppm. Current climate- 370 ppm and future climate- 437 ppm (2030s B1) and 461 (2030s A1B). 
 CO2_TRANSIENT			FALSE 				#FALSE=constant Co2 ---TRUE=CO2 changes each year
 CO2_FILE				../../Database/CO2/CO2_concentration.txt #input for transient CO2
 CLAY_INPUT              TRUE                #150630LML
@@ -267,7 +271,7 @@ PRT_SNOW_BAND		FALSE   		# TRUE = write a "snowband" output file, containing ban
 # If FROZEN_SOIL is TRUE, increase N_OUTFILES by 1
 # If PRT_SNOW_BAND is TRUE, increase N_OUTFILES by 1
 N_OUTFILES		1
-OUTFILE			VICFLUX_Livneh_norotation				18
+OUTFILE			VICFLUX_John_norotation				18
 OUTVAR			OUT_PREC				%.4f    OUT_TYPE_FLOAT  1
 OUTVAR			OUT_AIR_TEMP            %.4f    OUT_TYPE_FLOAT  1
 OUTVAR			OUT_SNOWF				%.4f    OUT_TYPE_FLOAT  1

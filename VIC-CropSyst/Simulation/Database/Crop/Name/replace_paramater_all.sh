@@ -15,6 +15,7 @@ python /home/liuming/dev/toolkits/ForVIC/python/update_crop_parameter_from_excel
 python /home/liuming/dev/toolkits/ForVIC/python/update_crop_parameter_from_excel_table_converted_txt.py Grass_seed.crp pasture_seed.txt
 python /home/liuming/dev/toolkits/ForVIC/python/update_crop_parameter_from_excel_table_converted_txt.py mint.crp mint.txt
 python /home/liuming/dev/toolkits/ForVIC/python/update_crop_parameter_from_excel_table_converted_txt.py cherry.crp cherry.txt
+python /home/liuming/dev/toolkits/ForVIC/python/update_crop_parameter_from_excel_table_converted_txt.py canola_winter-intermediate.crp Canola_new.txt
 
 sh replace_wheat_spring.sh
 sh replace_potato-irrigated.sh
@@ -32,3 +33,4 @@ sh replace_Barley.sh
 sh replace_Grass_seed.sh
 sh replace_mint.sh
 sh replace_cherry.sh
+sh replace_canola_winter-intermediate.sh

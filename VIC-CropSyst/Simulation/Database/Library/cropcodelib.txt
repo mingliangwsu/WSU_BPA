@@ -30,4 +30,8 @@
 1827 potato-irrigated
 1832 sugarbeet (Beta vulgaris)
 1902 canola_winter-intermediate
+1905 Camelina
 2002 winegrape
+2501 GENERIC_Hay
+2502 GENERIC_Fruit
+2503 GENERIC_Crop

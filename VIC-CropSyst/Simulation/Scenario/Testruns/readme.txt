@@ -5,7 +5,7 @@ Irrigated potato (4004): 309119 45.84375 -119.09375    //Not using the excel ver
 Winter Wheat     (4005): 308201 45.78125 -118.46875 
 Spring Wheat     (4006): 307255 45.71875 -119.59375
 Corn             (4007): 310974 45.96875 -119.15625
-Alfalfa          (5701): 309115 45.84375 -119.34375
+Alfalfa          (701):  309115 45.84375 -119.34375
 Sweet Corn       (4008): 311900 46.03125 -119.28125
 Peas(53)         (4009): 308199 45.78125 -118.59375
 Dry beans(42)    (4010): 307260 45.71875 -119.28125    //(1803) 
@@ -14,9 +14,12 @@ Onion(49)        (4100): 308179 45.78125 -119.84375    //NOTE: need right manage
 Canola(31) Winter(4101): 308186 45.78125 -119.40625
 Carrots(206)     (4102): 310037 45.90625 -119.71875    //check harvest data & management file     
 Apple(68)        (1401): 314691 46.21875 -118.84375    //(1401) Warning: The daily waterstress is set 1 during dormant season. 
-Grass seeds(59)  (1527): 307259 45.71875 -119.34375    //perennual crops Warning: the management parameter file (harvest events should be set!!!) Maturity GDD set: 1600
-Mint(14)         (5702): 308189 45.78125 -119.21875    //(807) 
+Grass seeds(59)  (4104): 307259 45.71875 -119.34375    //(1527) perennual crops Warning: the management parameter file (harvest events should be set!!!) Maturity GDD set: 1600
+Mint(14)         (807):  308189 45.78125 -119.21875    //(807) 
 Cherry(66)       (1403): 308184 45.78125 -119.53125    //(1403)
+GENERIC_Hay(37)  (2501): 308188 45.78125 -119.28125
+Camelina(38)     (4103): 304470 45.53125 -119.65625    //(1905)
+
  
 
 Carrots & Onion: planting date: Apr. 1; harvest date: Oct. 1
@@ -72,3 +75,4 @@ Note:
 1: It seems the new parameters for Potato is not right.
 2: found problem on Barley: the start sychronization for irrigation is sensitive to harvest date. If the sowing date is too late (i.e. not more than 20 days, the irrigation season will not be initialized and the irrigation never happen!!!). Now set offday = 0
 3. Seems the new apple parameter does not work
+
