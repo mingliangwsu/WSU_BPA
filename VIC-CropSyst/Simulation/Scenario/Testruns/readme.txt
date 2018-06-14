@@ -34,6 +34,12 @@ Procedure for setting certain gridcell level simulations ( steps 1-8):
 1. Check if the crop type (rotation is exit or not) in the vegetation library file, if not create an item in this file.
 
 2. Make sure the rotation file (and crop and management parameter files) exist.
+
+#: Perennual crops do not need symlinks under "Code" directory for Crop & Management files.
+#: Only annual crops need the "Code" sym links to the Name files.
+
+During the simulation, CropSyst will look for the rotation files under "Code" to find crop & management files; for perennual crops, CropSyst just look for their crop and management files through the vegetetaion type (for matching their code).   
+
 2.1 crop parameter. For perennual crop, make sure the Code has a symlink to Name.
 2.2 management: for alfafa (multi-year crops), make sure set "repeat_event=true" for managements (e.g. irrigation).  For perennual crop, make sure the Code has a symlink to Name.
 2.3 rotation (for annual crops only). Make sure both the Name and Code files are generated.
