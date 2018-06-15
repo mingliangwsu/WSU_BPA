@@ -72,7 +72,7 @@ LWP_stops_canopy_expansion=-1400
 [morphology]
 max_canopy_height=0.8
 [harvest_index]
-unstressed=1
+unstressed=0.95
 temperature_stress_sensitivity=0.00000000 Sensitivity to temperature stress during flowering
 growth_sensitivity=0.00000000 Sensitivity to water and nitrogen stress during active growth
 adjust_HI=false
@@ -131,28 +131,28 @@ osmotic_pot_50=0.00000000 Soil solution osmotic potential for 50% yield reductio
 tolerance_P=0.00000000 Salinity tolerance exponent (Van-Genuchten p) 
 [canopy_cover]
 initial=0.05
-maximum=0.97
-green_season_end=0.97
-total_season_end=0.97
-thermal_time_season_end=1100
+maximum=0.9
+green_season_end=0.0
+total_season_end=0.0
+thermal_time_season_end=1700
 shape_accrescent=9
 shape_senescent=9
 rel_TT_at_half_CC_max=0.5
 [phenology]
-maturity_significant=true
+maturity_significant=false
 clipping_resets=true
 emergence=25 Emergence
-flowering=2000
-peak_LAI=1100
-filling=1250
-maturity=10000
+flowering=20000
+peak_LAI=800
+filling=100000
+maturity=100000
 water_stress_sensitivity=0.00000000 Adjustment factor for phenologic response to stress
 WUE_change=1000.00000000 Thermal time for change of water use efficiency
-senescence=9000.00000000 Begin senescence (thermal time)
-full_senescence=10000
+senescence=1500.00000000 Begin senescence (thermal time)
+full_senescence=1700
 thermal_response=linear
 tuber_init=1000 Tuber initiation
-max_root_depth=700
+max_root_depth=300
 rapid_fruit_growth=1300.00000000 Begin rapid fruit growth
 resolution=daily
 base_temp=5
@@ -162,7 +162,7 @@ maximum_temp=0
 [root]
 initial_depth=0.15
 root_sensitivity_water_stress=0.5
-max_root_depth
+max_root_depth=1.2
 surface_root_density=3
 root_density_distribution_curvature=0.00100000 Curvature of root density distribution
 root_length_per_unit_mass=90.00000000 Root length per unit root mass
@@ -170,8 +170,8 @@ root_length_at_emergence=150 Root length at emergence
 root_shoot_emergence_ratio=2
 root_shoot_full_ratio=0.1
 [inactive_period]
-consider_inactive_days=7
-inducement_temperature=5
+consider_inactive_days=10
+inducement_temperature=10
 start_valid_date=330
 end_valid_date=90
 [residue]

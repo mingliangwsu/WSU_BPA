@@ -95,8 +95,8 @@ fruit_lethal_cold_temp=-10.00000000 Minimum daily air temperature which is letha
 [fruit]
 fract_total_solids=0.300000 Fraction of total solids
 max_fruit_load=22000
-initial_growth_fraction_to_fruit=0.89999998 Fraction of above biomass apportioned to fruit after flowering
-rapid_growth_fraction_to_fruit=0.64999998 Fraction of above biomass apportioned to fruit during accelerated fruit growth
+initial_growth_fraction_to_fruit=0.6 Fraction of above biomass apportioned to fruit after flowering
+rapid_growth_fraction_to_fruit=0.9 Fraction of above biomass apportioned to fruit during accelerated fruit growth
 harvest_temperature=15.00000000 Low temperature for harvest
 harvest_temperature_days=5 Consecutive days below the low temperature for to consider harvest
 earliest_harvest=258 Day to start looking for harvest conditions
@@ -127,9 +127,13 @@ row_spacing=2.70000005 Spacing between rows
 row_azimuth=0.00000000 Row azimuth
 col_spacing=2.50000000 Spacing along (within) rows
 [canopy_cover]
-CC_initial=0.05
-CC_maximum=0.89999998 Maximum canopy cover
-CC_mature_total=0.10000000 Total canopy cover at maturity (green and senesced)
+initial=0.05
+maximum=0.8
+green_season_end=0.8
+total_season_end=0.8
+thermal_time_season_end=11000
+shape_accrescent=9
+shape_senescent=9
 rel_TT_at_half_CC_max=0.5
 [phenology]
 maturity_significant=true
@@ -145,7 +149,7 @@ senescence=2000.00000000 Begin senescence (thermal time)
 full_senescence=2200.00000000 Full senescence (thermal time)
 thermal_response=linear
 tuber_init=1000 Tuber initiation
-max_root_depth=450
+max_root_depth=0
 rapid_fruit_growth=1200.00000000 Begin rapid fruit growth
 resolution=daily
 base_temp=5
@@ -154,8 +158,8 @@ optimal_temp=0
 maximum_temp=0
 [root]
 initial_depth=0.15
-root_sensitivity_water_stress=0.5
-max_root_depth=2.5
+root_sensitivity_water_stress=0.0
+max_root_depth=1.2
 surface_root_density=3
 root_density_distribution_curvature=0.10000000 Curvature of root density distribution
 root_length_per_unit_mass=90.00000000 Root length per unit root mass

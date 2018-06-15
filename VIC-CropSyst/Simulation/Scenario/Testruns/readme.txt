@@ -1,4 +1,4 @@
-180604LML:
+//180604LML:
 
 Test runs for various crops/rotations:
 Irrigated potato (4004): 309119 45.84375 -119.09375    //Not using the excel version of Photato parameter
@@ -81,4 +81,30 @@ Note:
 1: It seems the new parameters for Potato is not right.
 2: found problem on Barley: the start sychronization for irrigation is sensitive to harvest date. If the sowing date is too late (i.e. not more than 20 days, the irrigation season will not be initialized and the irrigation never happen!!!). Now set offday = 0
 3. Seems the new apple parameter does not work
+4. Change the Alfalfa & Mint to perennual crops, i.e. no rotation
+5. Change the grassseed into annual crops
+6. Even now we treat no rotation for annual crops, it still need a rotation type and rotation parameter file to  get information about the sowing date (or information about sowing condition), and the crop and management file names. 
+7. For now the land cover types is from USDA CDL and the following type conversion:
+ 
+Land cover BPA  -> MODIS  -> VIC_CropSyst Lib
+cdl:
+63 Forest:  None
+141 Deciduous  -> 4 deciduous broadleaf 
+142 Evergreen Forest ->1 Evergreen Needleleaf
+143 Mixed Forest -> 5 mixed forest
+
+Shrub:
+64 Shrubland:   None
+152 Shrubland: -> 10 Grassland
+190 Woody Wetland -> 10 Grassland
+
+Grass:
+176 Grass/Pasture  -> Pasture/Hay
+195 Herbaceous Wetland -> 10 Grassland
+
+
+
+//180614: set up model run on Aeolus:
+1. update parameters
+2. update source code: the CropSyst/soure didn't updated from repository but manuelly updated from Min's local Linux machins (since need approval from Roger).
 
