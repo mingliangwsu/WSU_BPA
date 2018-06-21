@@ -223,18 +223,20 @@ stop=0.00 hours
 unconstrain=4805729532948027522000000000.00 hours
 
 [adjustment:1]
-event_synchronization=thermal_time
-event_thermal_time=1100
-reschedule=yes
+event_synchronization=after_normal_crop_growth_stage
+event_offset=1
+event_phenologic=harvest
+reschedule=once
 checked=true
 enabled=true
 parameter=Maximum water uptake [max_water_uptake]
 value=0.50000
 
 [adjustment:2]
-event_synchronization=thermal_time
-event_thermal_time=2000
-reschedule=yes
+event_synchronization=after_normal_crop_growth_stage
+event_offset=1
+event_phenologic=restart
+reschedule=once
 checked=true
 enabled=true
 parameter=[max_water_uptake]
