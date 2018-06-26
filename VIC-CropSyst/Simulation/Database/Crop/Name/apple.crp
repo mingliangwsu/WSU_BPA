@@ -23,7 +23,7 @@ canopy_growth=canopy_cover_2017
 #canopy_growth=canopy_cover_2017
 deciduous=true
 linger=90 Time that senesced leaves linger with the plant
-adjustment:count=0
+adjustment:count=2
 grain_stress_period:count=0
 [water_use_efficiency]
 season2_adj=1.00000000
@@ -212,4 +212,21 @@ N_mature_max_conc=0.02350000 Maximum above ground concentration at maturity
 dilution_curve_slope=0.50000000 Concentration curve slope
 dilution_curve_based_on_max_conc=true
 end_dilution_curve=1000 End dilution curve
-
+[adjustment:1]
+event_synchronization=after_normal_crop_growth_stage
+event_offset=1
+event_phenologic=harvest
+reschedule=once
+checked=true
+enabled=true
+parameter=Maximum water uptake [max_water_uptake]
+value=0.50000
+[adjustment:2]
+event_synchronization=after_normal_crop_growth_stage
+event_offset=1
+event_phenologic=restart
+reschedule=once
+checked=true
+enabled=true
+parameter=[max_water_uptake]
+value=12.00000

@@ -1,0 +1,3 @@
+generate_scenario_for_one_gridcell.sh 1
+ generate_scenario_for_one_gridcell_using_global_veg_and_irrig_parameter.sh run_batch_cells_irrig_with_none_irrig.sh
+
