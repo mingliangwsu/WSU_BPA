@@ -1,6 +1,12 @@
 #!/bin/sh
-gridid=$1
-vegid=$2
+if [ $# -eq 0 ]; then
+    echo "Usage: $0 <1:gridid> <2:vegid>\n"
+    exit 0
+else
+    gridid=$1
+    vegid=$2
+fi
+
 outfilename="veg_param_id_${gridid}.txt"
 current_path=$CWD
 echo "Generating veg parameter for gridid $gridid with veg type $vegid..."

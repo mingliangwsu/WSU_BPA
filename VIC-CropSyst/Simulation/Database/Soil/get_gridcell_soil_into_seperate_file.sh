@@ -1,16 +1,17 @@
 #!/bin/sh
-gridid=$1
+if [ $# -eq 0 ]; then
+    echo "Usage: $0 <1:gridid>\n"
+    exit 0
+else
+    gridid=$1
+fi
+
 outfilename="soil_param_id_${gridid}.txt"
 current_path=$CWD
 cd ~/Projects/WSU_BPA/VIC-CropSyst/Simulation/Database/Soil
 cat Umatilla_bigdomain_soil.txt | while read line
 do
-    #for word in $line
-    #do
-      #echo $word
-    #done
     set $line
-    #echo $2
     if [ $2 = $gridid ]; then
         echo "found: $2"
         echo $line > $outfilename
