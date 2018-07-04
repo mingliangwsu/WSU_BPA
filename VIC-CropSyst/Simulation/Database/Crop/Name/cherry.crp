@@ -1,7 +1,6 @@
-[version]
-major=4
-release=19
-minor=6
+[GUI]
+show=FFFF
+version=0
 [crop]
 details_URL=
 description=Cherry
@@ -12,18 +11,14 @@ model=fruit
 harvested_part=fruit
 RUSLE2_name=
 RUSLE2_description=
-abscission=marcescent
-C_species=C3
+abscission=desiduous
 photosynthetic_pathway=C3
 life_cycle=perennial
-stem_type=woody
 land_use=FALLOW
 season_dormancy_mode=dormancy
 canopy_growth=canopy_cover_2017
-#canopy_growth=canopy_cover_2017
-deciduous=true
-linger=90 Time that senesced leaves linger with the plant
-adjustment:count=0
+adjustment:count=2
+linger=90 days
 grain_stress_period:count=0
 [water_use_efficiency]
 season2_adj=1.00000000
@@ -53,7 +48,6 @@ kc=0.5
 [growth]
 WUE_changes=false
 TUE_equation=TUE_curve
-RUE_basis=global_radiation
 TUE_scaling_coef=0.5
 TUE_scaling_coef_veg=0.5
 TUE_at_1pKa_VPD=5
@@ -61,7 +55,6 @@ TUE_at_1pKa_VPD_veg=5
 water_productivity=5.00000000 Water productivity FAO AquaCrop water productivity during reproductive growth (or throughout the season depending on the WUE mode)
 water_productivity_veg=5.00000000 Water productivity as in AquaCrop
 RUE_global=1.6
-RUE_PAR=2.80000000 Photosynthetically Active Radiation (PAR) basis
 biomass_transpiration_coef=5.00000000 Above ground biomass transpiration coefficient (K) for annuals annual
 biomass_transpiration_coef_veg=5.00000000 Above ground biomass transpiration coefficient (K) for annuals annual
 early_growth_limit_temp=10.00000000 Mean daily temperature that limits early growth
@@ -78,13 +71,6 @@ unstressed=0.47999999 Unstressed harvest index
 temperature_stress_sensitivity=0.00000000 Sensitivity to temperature stress during flowering
 adjust_HI=false
 heat_extreme=false
-[emergence]
-model=thermal_time
-a=22.35000038 a slope? for hydrothermal time constant curve Emperical constant
-b=129.66000366 b intercept? for hydrothermal time constant curve Emperical constant
-seedling_leaf_area=2.00000000 Leaf area of seedling on first day of emergence
-mean_base_soil_water_pot=-1000.00000000 Mean base soil water potential for 50% emergence
-stdev_base_soil_water_pot=100.00000000 Std deviation base soil water potential ?for 50% emergence?
 [hardiness]
 enabled=false
 damage_cold_temp=0.00000000 Cold temperature which begins to damage the plant (leaves)
@@ -141,17 +127,16 @@ clipping_resets=false
 emergence=0 Emergence
 flowering=70 Begin flowering
 peak_LAI=200 End canopy growth
+max_root_depth=0
+tuber_init=1000 Tuber initiation
 filling=250 Begin filling (seed filling, or orchard fruit filling, or tuber bulking)
+rapid_fruit_growth=600.00000000 Begin rapid fruit growth
 maturity=960.00000000 Physiological maturity
 water_stress_sensitivity=0.00000000 Adjustment factor for phenologic response to stress
 WUE_change=1000.00000000 Thermal time for change of water use efficiency
 senescence=1060.00000000 Begin senescence (thermal time)
 full_senescence=1200.00000000 Full senescence (thermal time)
 thermal_response=linear
-tuber_init=1000 Tuber initiation
-max_root_depth=0
-rapid_fruit_growth=600.00000000 Begin rapid fruit growth
-resolution=daily
 base_temp=5
 cutoff_temp=25
 optimal_temp=0
@@ -212,4 +197,24 @@ N_mature_max_conc=0.02350000 Maximum above ground concentration at maturity
 dilution_curve_slope=0.50000000 Concentration curve slope
 dilution_curve_based_on_max_conc=true
 end_dilution_curve=1000 End dilution curve
+
+[adjustment:1]
+event_synchronization=after_fruit_tree_growth_stage
+event_offset=1
+event_phenologic(fruit)=harvest
+reschedule=once
+checked=true
+enabled=true
+parameter=Maximum water uptake [max_water_uptake]
+value=0.50000
+
+[adjustment:2]
+event_synchronization=after_fruit_tree_growth_stage
+event_offset=1
+event_phenologic(fruit)=bud_break
+reschedule=once
+checked=true
+enabled=true
+parameter=[max_water_uptake]
+value=12.00000
 
