@@ -1,5 +1,3 @@
-[inherit]
-0=N_supplemental.mgt
 [management]
 details_URL=
 description=dry bean (copied from pea)
