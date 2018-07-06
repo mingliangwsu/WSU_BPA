@@ -43,7 +43,7 @@ duration_stress_sensitivity=1.00000000 Leaf area duration sensitivity to water s
 a1=0.00000000
 a2=0.00000000
 [transpiration]
-ET_crop_coef=1.15
+ET_crop_coef=1.2
 max_water_uptake=12
 stomatal_closure_leaf_water_pot=-1300
 wilt_leaf_water_pot=-1600
@@ -78,7 +78,7 @@ translocation_max=0.2
 filling_sensitivity=0.00000000 filling/bulking Sensitivity to water and nitrogen stress
 filling_duration=1 Duration of grain filling period (unstressed)
 temperature_stress_sensitivity=0.00000000 Sensitivity to temperature stress during flowering
-adjust_HI=true
+adjust_HI=false
 heat_extreme=false
 [emergence]
 model=thermal_time
@@ -137,20 +137,20 @@ tolerance_P=0.00000010 Salinity tolerance exponent (Van-Genuchten p)
 [canopy_cover]
 initial=0.05
 maximum=0.9
-total_season_end=0.7
-green_season_end=0
-thermal_time_season_end=1500
+total_season_end=0.9
+green_season_end=0.8
+thermal_time_season_end=1000
 shape_accrescent=9
 shape_senescent=9
 rel_TT_at_half_CC_max=0.5
 [phenology]
 maturity_significant=true
 clipping_resets=false
-emergence=25
-flowering=960
-peak_LAI=960
-filling=1000
-maturity=1500
+emergence=1
+flowering=300
+peak_LAI=245
+filling=450
+maturity=1000
 water_stress_sensitivity=0.00000000 Adjustment factor for phenologic response to stress
 WUE_change=1000.00000000 Thermal time for change of water use efficiency
 senescence=1050.00000000 Begin senescence (thermal time)
