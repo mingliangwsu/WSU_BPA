@@ -46,7 +46,7 @@ a1=0.00000000
 a2=0.00000000
 
 [transpiration]
-ET_crop_coef=1.15 0.8-1.4
+ET_crop_coef=1.2 0.8-1.4
 max_water_uptake=14.00 mm/day
 stomatal_closure_leaf_water_pot=-1300.00 J/kg
 wilt_leaf_water_pot=-1600.00 J/kg
@@ -222,23 +222,4 @@ photoperiodism=none
 stop=0.00 hours
 unconstrain=4805729532948027522000000000.00 hours
 
-[adjustment:1]
-event_synchronization=after_normal_crop_growth_stage
-event_offset=1
-event_phenologic=harvest
-reschedule=once
-checked=true
-enabled=true
-parameter=Maximum water uptake [max_water_uptake]
-value=0.50000
-
-[adjustment:2]
-event_synchronization=after_normal_crop_growth_stage
-event_offset=1
-event_phenologic=restart
-reschedule=once
-checked=true
-enabled=true
-parameter=[max_water_uptake]
-value=14.00000
 
