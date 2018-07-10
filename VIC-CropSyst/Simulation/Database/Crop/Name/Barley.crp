@@ -1,6 +1,6 @@
 [crop]
 details_URL=
-description=Barley
+description=Same with Wheat - winter (Triticum aestivum)
 feed_name_immature=
 feed_name_midmature=
 feed_name_mature=
@@ -46,7 +46,7 @@ senescence_power_coef=1.00000000 Leaf senescence power coefficient
 a1=0.00000000
 a2=0.00000000
 [transpiration]
-ET_crop_coef=1.15
+ET_crop_coef=1.2
 max_water_uptake=12
 stomatal_closure_leaf_water_pot=-1300
 wilt_leaf_water_pot=-1600
@@ -75,13 +75,13 @@ LWP_stops_canopy_expansion=-1400
 [morphology]
 max_canopy_height=1
 [harvest_index]
-unstressed=0.45
+unstressed=0.48
 flowering_sensitivity=0.00000000 Sensitivity to water and nitrogen stress during flowering
-translocation_max=0
+translocation_max=0.35
 filling_sensitivity=0.00000000 filling/bulking Sensitivity to water and nitrogen stress
 filling_duration=1 Duration of grain filling period (unstressed)
 temperature_stress_sensitivity=0.00000000 Sensitivity to temperature stress during flowering
-adjust_HI=false
+adjust_HI=true
 [emergence]
 model=thermal_time
 a=20.00000000 a slope? for hydrothermal time constant curve Emperical constant
@@ -136,20 +136,20 @@ osmotic_pot_50=-200.00000000 Soil solution osmotic potential for 50% yield reduc
 tolerance_P=3.00000000 Salinity tolerance exponent (Van-Genuchten p) 
 [canopy_cover]
 initial=0.05
-maximum=0.8
-green_season_end=0.3
-total_season_end=0.7
-thermal_time_season_end=2140
+maximum=0.9
+green_season_end=0
+total_season_end=0.8
+thermal_time_season_end=2240
 shape_accrescent=9
 shape_senescent=9
 rel_TT_at_half_CC_max=0.5
 [phenology]
 maturity_significant=true
 clipping_resets=false
-emergence=24
-flowering=680
-peak_LAI=630
-filling=1115
+emergence=70
+flowering=1250
+peak_LAI=1170
+filling=1420
 maturity=2140
 water_stress_sensitivity=0.10000000 Adjustment factor for phenologic response to stress
 WUE_change=1000.00000000 Thermal time for change of water use efficiency
@@ -157,17 +157,17 @@ senescence=1540.00000000 Begin senescence (thermal time)
 full_senescence=2140
 thermal_response=linear
 tuber_init=1000 Tuber initiation
-max_root_depth=600
+max_root_depth=1170
 rapid_fruit_growth=1300.00000000 Begin rapid fruit growth
 resolution=daily
-base_temp=3
+base_temp=0
 cutoff_temp=25
 optimal_temp=0
 maximum_temp=0
 [root]
 initial_depth=0.15
 root_sensitivity_water_stress=0.5
-max_root_depth=1.5
+max_root_depth=1.8
 surface_root_density=3
 root_density_distribution_curvature=0.00100000 Curvature of root density distribution
 root_length_per_unit_mass=100.00000000 Root length per unit root mass
@@ -176,7 +176,7 @@ root_shoot_emergence_ratio=2
 root_shoot_full_ratio=0.1
 [inactive_period]
 consider_inactive_days=7
-inducement_temperature=5
+inducement_temperature=0
 start_valid_date=365 (12/30)
 end_valid_date=365 (12/30)
 [residue]

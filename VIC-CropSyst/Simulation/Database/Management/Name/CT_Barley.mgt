@@ -1,6 +1,6 @@
 [management]
 details_URL=
-description=copied from Winter Wheat
+description=same with WW 
 land_treatment=STRAIGHT
 crop_management=true
 automatic_nitrogen=false
