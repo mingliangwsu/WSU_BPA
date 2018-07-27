@@ -207,8 +207,8 @@ event_phenologic(fruit)=harvest
 reschedule=once
 checked=true
 enabled=true
-parameter=Maximum water uptake [max_water_uptake]
-value=0.50000
+parameter=ET_crop_coef [ET_crop_coef]
+value=0.050000
 
 [adjustment:2]
 event_synchronization=after_fruit_tree_growth_stage
@@ -217,6 +217,6 @@ event_phenologic(fruit)=bud_break
 reschedule=once
 checked=true
 enabled=true
-parameter=[max_water_uptake]
-value=12.00000
+parameter=[ET_crop_coef]
+value=1.200000
 
