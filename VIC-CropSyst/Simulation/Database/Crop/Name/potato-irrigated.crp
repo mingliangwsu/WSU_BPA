@@ -169,13 +169,12 @@ cutoff_temp=40.00000000 Cutoff temperature
 optimal_temp=30.00000000 Optimal temperature
 maximum_temp=40.00000000 Maximum temperature
 [root]
-initial_depth=0.20000000
 root_sensitivity_water_stress=0.00000000 Root sensitivity to water stress
 max_root_depth=0.6000000 Maximum root depth
 surface_root_density=2.00000000 Maximum surface root density at full rooting depth
 root_density_distribution_curvature=0.00100000 Curvature of root density distribution
 root_length_per_unit_mass=100.00000000 Root length per unit root mass
-root_length_at_emergence=2.00000000 Root length at emergence
+root_length_at_emergence=20.00000000 Root length at emergence
 root_shoot_emergence_ratio=2.00000000 root/shoot (mass) ratio at emergence
 root_shoot_full_ratio=0.10000000 root/shoot (mass) ratio at full extent
 [inactive_period]

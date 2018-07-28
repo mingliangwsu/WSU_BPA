@@ -162,7 +162,6 @@ cutoff_temp=22
 optimal_temp=0
 maximum_temp=0
 [root]
-initial_depth=0.15
 root_sensitivity_water_stress=0.00000000 Root sensitivity to water stress
 max_root_depth=0.9
 surface_root_density=3

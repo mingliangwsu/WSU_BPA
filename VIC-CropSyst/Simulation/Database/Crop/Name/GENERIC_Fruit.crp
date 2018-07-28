@@ -162,12 +162,11 @@ optimal_temp=0.00 °C
 maximum_temp=0.00 °C
 
 [root]
-initial_depth=10.00000000
 root_sensitivity_water_stress=0.00 index
 max_root_depth=1.20 m
 surface_root_density=3.00 cm/cm³
 root_density_distribution_curvature=0.100 0.0001-6.0
-root_length_at_emergence=2.00 cm
+root_length_at_emergence=10.00 cm
 root_shoot_emergence_ratio=2.00 ratio
 root_shoot_full_ratio=0.10 ratio
 
