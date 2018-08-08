@@ -8,7 +8,7 @@ major=4
 [sowing:1]
 ID=CT_SW
 event_synchronization=relative_date
-event_date=0105 (0/4/15 (relative date))
+event_date=0244 (0/9/1 (relative date))
 description=Spring wheat- Sowing date was come from rotation file in CFF folder
 crop=../../Crop/Name/Grass_seed.crp
 management=../../Management/Name/Grass_seed.mgt
